@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E1EDC951-A74A-4307-9DA8-2B59BD1FF491}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GreenHouse.DAL</RootNamespace>
+    <AssemblyName>GreenHouse.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.10.0.0\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminLogicsDAL\AdminElemanDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminFirmaDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminKategoriDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminMenuDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminMenuElemanDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminResimDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminRolDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminSayfaDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminSayfaMenuDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminSayfaYetkiRolDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminUrunDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminUrunFirmaDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminUrunIcerikDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminUrunOnayDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminUygulamaDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminYetkiDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminBilesenDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminKullaniciDAL.cs" />
+    <Compile Include="AdminLogicsDAL\AdminRiskDAL.cs" />
+    <Compile Include="Concrete\EFRepo.cs" />
+    <Compile Include="Concrete\EFRepoTransaction.cs" />
+    <Compile Include="Interfaces\IDeletableRepo.cs" />
+    <Compile Include="Interfaces\IInsertableRepo.cs" />
+    <Compile Include="Interfaces\ISelectableRepo.cs" />
+    <Compile Include="Interfaces\IUpdatableRepo.cs" />
+    <Compile Include="LogicsDAL\AramaGecmisiDAL.cs" />
+    <Compile Include="LogicsDAL\BilesenDAL.cs" />
+    <Compile Include="LogicsDAL\KategoriDAL.cs" />
+    <Compile Include="LogicsDAL\KullaniciDAL.cs" />
+    <Compile Include="LogicsDAL\KullaniciListesiDAL.cs" />
+    <Compile Include="LogicsDAL\KullaniciPremiumTipDAL.cs" />
+    <Compile Include="LogicsDAL\ListeIcerikDAL.cs" />
+    <Compile Include="LogicsDAL\ResimDAL.cs" />
+    <Compile Include="LogicsDAL\RiskDAL.cs" />
+    <Compile Include="LogicsDAL\UrunBilesenDAL.cs" />
+    <Compile Include="LogicsDAL\UrunDAL.cs" />
+    <Compile Include="LogicsDAL\UrunFirmaDAL.cs" />
+    <Compile Include="LogicsDAL\UrunOnayDAL.cs" />
+    <Compile Include="LogicsDAL\UserDAL.cs" />
+    <Compile Include="LogicsDAL\UserSingleton.cs" />
+    <Compile Include="Mapper\MyEntityMapper.cs" />
+    <Compile Include="Mapper\MyMapper.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.1.AssemblyAttributes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\GreenHouse.DAL.dll" />
+    <Content Include="bin\Debug\GreenHouse.DAL.pdb" />
+    <Content Include="obj\Debug\GreenHouse.DAL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\GreenHouse.DAL.dll" />
+    <Content Include="obj\Debug\GreenHouse.DAL.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\GreenHouse.DAL.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\GreenHouse.DAL.csproj.CoreCompileInputs.cache" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GreenHouse.Core\GreenHouse.Core.csproj">
+      <Project>{F2C314BD-5198-4C81-9948-936609BFC298}</Project>
+      <Name>GreenHouse.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenHouse.VM\GreenHouse.VM.csproj">
+      <Project>{233B15B2-F6F3-4989-8781-6090C0F08F54}</Project>
+      <Name>GreenHouse.VM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

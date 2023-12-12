@@ -1,0 +1,208 @@
+C:\Users\ihsan\Desktop\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.AssemblyReference.cache
+C:\Users\ihsan\Desktop\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.Properties.Resources.resources
+C:\Users\ihsan\Desktop\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.GenerateResource.cache
+C:\Users\ihsan\Desktop\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.CoreCompileInputs.cache
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.AssemblyReference.cache
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminMenuElemanUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminMenuUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminPanelUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminSayfaMenuUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminSayfaUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminSayfaYetkiRolUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUserControlUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUygulamaUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminYetkiUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.Properties.Resources.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.BlackList.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.BlackListIngredient.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmAbout.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmAddProduct.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.FrmBarcode.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.FrmContactUs.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmFavorites.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmMainMenu.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmMdiContainer.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmPremium.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmSearch.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmSearchHistory.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmSideMenu.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmUser.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.ProductContent.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.UserEmailReset.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.UserLogin.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.UserPasswordReset.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.GenerateResource.cache
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.CoreCompileInputs.cache
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminBilesenUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminFirmaUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminFirmaUrunUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminKategoriUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminResimUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminRiskUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUrunUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUrunIcerikUI.resources
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.UI.exe.config
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.UI.exe
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.UI.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\EntityFramework.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.BLL.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.Core.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.VM.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.DAL.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\ExceptionHandling.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\AutoMapper.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.BLL.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.BLL.dll.config
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.Core.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.Core.dll.config
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.VM.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\EntityFramework.xml
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.DAL.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.DAL.dll.config
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\ExceptionHandling.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\ExceptionHandling.dll.config
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\bin\Debug\AutoMapper.xml
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.CopyComplete
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.exe
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.UI.exe.config
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.UI.exe
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.UI.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\EntityFramework.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\EntityFramework.SqlServer.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.BLL.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.Core.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.VM.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.DAL.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\ExceptionHandling.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\AutoMapper.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.BLL.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.BLL.dll.config
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.Core.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.Core.dll.config
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.VM.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\EntityFramework.xml
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\EntityFramework.SqlServer.xml
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.DAL.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.DAL.dll.config
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\ExceptionHandling.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\ExceptionHandling.dll.config
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\bin\Debug\AutoMapper.xml
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.AssemblyReference.cache
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminMenuElemanUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminMenuUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminPanelUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminSayfaMenuUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminSayfaUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminSayfaYetkiRolUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUserControlUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUygulamaUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminYetkiUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminBilesenUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminFirmaUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminFirmaUrunUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminKategoriUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminResimUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminRiskUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUrunUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUrunIcerikUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.Properties.Resources.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.BlackList.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.BlackListIngredient.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmAbout.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmAddProduct.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.FrmBarcode.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.FrmContactUs.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmFavorites.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmMainMenu.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmMdiContainer.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmPremium.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmSearch.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmSearchHistory.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmSideMenu.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmUser.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.ProductContent.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.UserEmailReset.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.UserLogin.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.UserPasswordReset.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.GenerateResource.cache
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.CoreCompileInputs.cache
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.CopyComplete
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.exe
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUrunOnayUI.resources
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUrunDetayUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.UI.exe.config
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.UI.exe
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.UI.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\EntityFramework.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.BLL.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.Core.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.DAL.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.VM.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\ExceptionHandling.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\AutoMapper.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.BLL.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.BLL.dll.config
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.Core.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.Core.dll.config
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.DAL.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.DAL.dll.config
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\GreenHouse.VM.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\EntityFramework.xml
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\ExceptionHandling.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\ExceptionHandling.dll.config
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\bin\Debug\AutoMapper.xml
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.AssemblyReference.cache
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminMenuElemanUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminMenuUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminPanelUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminSayfaMenuUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminSayfaUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminSayfaYetkiRolUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUrunDetayUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUrunOnayUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUserControlUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUygulamaUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminYetkiUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminBilesenUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminFirmaUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminFirmaUrunUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminKategoriUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminResimUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminRiskUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUrunUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.AdminUrunIcerikUI.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.Properties.Resources.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.BlackList.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.BlackListIngredient.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmAbout.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmAddProduct.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.FrmBarcode.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.FrmContactUs.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmFavorites.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmMainMenu.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmMdiContainer.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmPremium.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmSearch.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmSearchHistory.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmSideMenu.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.UserUI.FrmUser.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.ProductContent.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.UserEmailReset.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.UserLogin.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.UserPasswordReset.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.GenerateResource.cache
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.CoreCompileInputs.cache
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.csproj.CopyComplete
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.exe
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.FrmFavoriteList.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.FrmForgetPassword.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.User.FrmFavoriteListe.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.UrunEklemeFormlari.AdminUrunEkleBilesen.resources
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.UI\obj\Debug\GreenHouse.UI.AdminPanel.UI.UrunEklemeFormlari.AdminUrunEkleFirma.resources

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F2C314BD-5198-4C81-9948-936609BFC298}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GreenHouse.Core</RootNamespace>
+    <AssemblyName>GreenHouse.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Extensions.cs" />
+    <Compile Include="Common\GeneralReturnType.cs" />
+    <Compile Include="Entities\Aktivite.cs" />
+    <Compile Include="Entities\AramaGecmisi.cs" />
+    <Compile Include="Entities\Bilesen.cs" />
+    <Compile Include="Entities\Eleman.cs" />
+    <Compile Include="Entities\Firma.cs" />
+    <Compile Include="Entities\Kullanici.cs" />
+    <Compile Include="Entities\KullaniciAktivite.cs" />
+    <Compile Include="Entities\KullaniciListesi.cs" />
+    <Compile Include="Entities\KullaniciRolu.cs" />
+    <Compile Include="Entities\KullaniciTipi.cs" />
+    <Compile Include="Entities\KullaniciUygulamaIzni.cs" />
+    <Compile Include="Entities\ListeIcerigi.cs" />
+    <Compile Include="Entities\ListeTip.cs" />
+    <Compile Include="Entities\Menu.cs" />
+    <Compile Include="Entities\MenuEleman.cs" />
+    <Compile Include="Entities\Model1.cs" />
+    <Compile Include="Entities\Resim.cs" />
+    <Compile Include="Entities\Risk.cs" />
+    <Compile Include="Entities\Rol.cs" />
+    <Compile Include="Entities\Sayfa.cs" />
+    <Compile Include="Entities\SayfaMenu.cs" />
+    <Compile Include="Entities\SayfaYetki.cs" />
+    <Compile Include="Entities\Urun.cs" />
+    <Compile Include="Entities\UrunFirma.cs" />
+    <Compile Include="Entities\UrunIcerik.cs" />
+    <Compile Include="Entities\UrunKategori.cs" />
+    <Compile Include="Entities\UrunOnay.cs" />
+    <Compile Include="Entities\UygulamaAyar.cs" />
+    <Compile Include="Entities\UygulamaIzinTip.cs" />
+    <Compile Include="Entities\Yetki.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.1.AssemblyAttributes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="bin\Debug\GreenHouse.Core.dll.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\edmxResourcesToEmbed\GreenHouseModel.csdl" />
+    <None Include="obj\Debug\edmxResourcesToEmbed\GreenHouseModel.msl" />
+    <None Include="obj\Debug\edmxResourcesToEmbed\GreenHouseModel.ssdl" />
+    <None Include="obj\Debug\GreenHouse.Core.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\GreenHouse.Core.csproj.CopyComplete" />
+    <None Include="obj\Debug\GreenHouse.Core.csproj.CoreCompileInputs.cache" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\GreenHouse.Core.dll" />
+    <Content Include="bin\Debug\GreenHouse.Core.pdb" />
+    <Content Include="obj\Debug\GreenHouse.Core.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\GreenHouse.Core.dll" />
+    <Content Include="obj\Debug\GreenHouse.Core.pdb" />
+    <Content Include="obj\Debug\TempPE\GreenHouseModel.Context.cs.dll" />
+    <Content Include="obj\Debug\TempPE\GreenHouseModel.cs.dll" />
+    <Content Include="obj\Debug\TempPE\GreenHouseModel.Designer.cs.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

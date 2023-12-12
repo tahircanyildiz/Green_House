@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27EE0C8E-3F30-4461-B248-70F97289D9D1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GreenHouse.BLL</RootNamespace>
+    <AssemblyName>GreenHouse.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminsBLL\AdminElemanBLL.cs" />
+    <Compile Include="AdminsBLL\AdminFirmaBLL.cs" />
+    <Compile Include="AdminsBLL\AdminKategoriBLL.cs" />
+    <Compile Include="AdminsBLL\AdminMenuBLL.cs" />
+    <Compile Include="AdminsBLL\AdminMenuElemanBLL.cs" />
+    <Compile Include="AdminsBLL\AdminResimBLL.cs" />
+    <Compile Include="AdminsBLL\AdminRolBLL.cs" />
+    <Compile Include="AdminsBLL\AdminSayfaBLL.cs" />
+    <Compile Include="AdminsBLL\AdminSayfaMenuBLL.cs" />
+    <Compile Include="AdminsBLL\AdminSayfaYetkiRolBLL.cs" />
+    <Compile Include="AdminsBLL\AdminUrunBLL.cs" />
+    <Compile Include="AdminsBLL\AdminUrunFirmaBLL.cs" />
+    <Compile Include="AdminsBLL\AdminUrunIcerikBLL.cs" />
+    <Compile Include="AdminsBLL\AdminUrunOnayBLL.cs" />
+    <Compile Include="AdminsBLL\AdminUygulamaBLL.cs" />
+    <Compile Include="AdminsBLL\AdminYetkiBLL.cs" />
+    <Compile Include="AdminsBLL\AdminBilesenBLL.cs" />
+    <Compile Include="AdminsBLL\AdminKullaniciBLL.cs" />
+    <Compile Include="AdminsBLL\AdminRiskBLL.cs" />
+    <Compile Include="KullaniciRol\KullaniciRoluBLL.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.1.AssemblyAttributes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsersBLL\AramaGecmisiBLL.cs" />
+    <Compile Include="UsersBLL\BilesenBLL.cs" />
+    <Compile Include="UsersBLL\KategoriBLL.cs" />
+    <Compile Include="UsersBLL\KullaniciListesiBLL.cs" />
+    <Compile Include="UsersBLL\KullaniciPremiumTipBLL.cs" />
+    <Compile Include="UsersBLL\KullaniciUIBLL.cs" />
+    <Compile Include="UsersBLL\ListeIcerikBLL.cs" />
+    <Compile Include="UsersBLL\ResimBLL.cs" />
+    <Compile Include="UsersBLL\UrunBilesenBLL.cs" />
+    <Compile Include="UsersBLL\UrunFirmaBLL.cs" />
+    <Compile Include="UsersBLL\UrunOnayBLL.cs" />
+    <Compile Include="UsersBLL\UserRiskBLL.cs" />
+    <Compile Include="UsersBLL\UserUrunBLL.cs" />
+    <Compile Include="User\UserBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GreenHouse.Core\GreenHouse.Core.csproj">
+      <Project>{F2C314BD-5198-4C81-9948-936609BFC298}</Project>
+      <Name>GreenHouse.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenHouse.DAL\GreenHouse.DAL.csproj">
+      <Project>{E1EDC951-A74A-4307-9DA8-2B59BD1FF491}</Project>
+      <Name>GreenHouse.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenHouse.ExceptionHandling\GreenHouse.ExceptionHandling.csproj">
+      <Project>{5C7BCEA6-D664-4F8D-AE1C-E0E61FF24E81}</Project>
+      <Name>GreenHouse.ExceptionHandling</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenHouse.VM\GreenHouse.VM.csproj">
+      <Project>{233B15B2-F6F3-4989-8781-6090C0F08F54}</Project>
+      <Name>GreenHouse.VM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="bin\Debug\ExceptionHandling.dll.config" />
+    <None Include="bin\Debug\GreenHouse.BLL.dll.config" />
+    <None Include="bin\Debug\GreenHouse.Core.dll.config" />
+    <None Include="bin\Debug\GreenHouse.DAL.dll.config" />
+    <None Include="bin\Debug\GreenHouse.VM.dll.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\GreenHouse.BLL.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\GreenHouse.BLL.csproj.CopyComplete" />
+    <None Include="obj\Debug\GreenHouse.BLL.csproj.CoreCompileInputs.cache" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\AutoMapper.dll" />
+    <Content Include="bin\Debug\AutoMapper.xml" />
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\ExceptionHandling.dll" />
+    <Content Include="bin\Debug\ExceptionHandling.pdb" />
+    <Content Include="bin\Debug\GreenHouse.BLL.dll" />
+    <Content Include="bin\Debug\GreenHouse.BLL.pdb" />
+    <Content Include="bin\Debug\GreenHouse.Core.dll" />
+    <Content Include="bin\Debug\GreenHouse.Core.pdb" />
+    <Content Include="bin\Debug\GreenHouse.DAL.dll" />
+    <Content Include="bin\Debug\GreenHouse.DAL.pdb" />
+    <Content Include="bin\Debug\GreenHouse.VM.dll" />
+    <Content Include="bin\Debug\GreenHouse.VM.pdb" />
+    <Content Include="obj\Debug\GreenHouse.BLL.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\GreenHouse.BLL.dll" />
+    <Content Include="obj\Debug\GreenHouse.BLL.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

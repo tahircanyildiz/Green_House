@@ -1,0 +1,63 @@
+C:\Users\ihsan\Desktop\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.DAL.dll
+C:\Users\ihsan\Desktop\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.DAL.pdb
+C:\Users\ihsan\Desktop\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.csproj.AssemblyReference.cache
+C:\Users\ihsan\Desktop\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ihsan\Desktop\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.dll
+C:\Users\ihsan\Desktop\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.csproj.AssemblyReference.cache
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.DAL.dll.config
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.DAL.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.DAL.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\bin\Debug\AutoMapper.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\bin\Debug\EntityFramework.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.Core.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.VM.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.Core.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.Core.dll.config
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.VM.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\bin\Debug\AutoMapper.xml
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\bin\Debug\EntityFramework.xml
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.csproj.CopyComplete
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.DAL.dll.config
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.DAL.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.DAL.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\bin\Debug\AutoMapper.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\bin\Debug\EntityFramework.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.Core.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.VM.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.Core.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.Core.dll.config
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.VM.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\bin\Debug\AutoMapper.xml
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\bin\Debug\EntityFramework.xml
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.csproj.AssemblyReference.cache
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.csproj.CoreCompileInputs.cache
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.csproj.CopyComplete
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.DAL.dll.config
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.DAL.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.DAL.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\bin\Debug\AutoMapper.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.Core.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.VM.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.Core.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.Core.dll.config
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\bin\Debug\GreenHouse.VM.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\bin\Debug\AutoMapper.xml
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.csproj.AssemblyReference.cache
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.csproj.CopyComplete
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.DAL\obj\Debug\GreenHouse.DAL.pdb

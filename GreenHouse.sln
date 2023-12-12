@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHouse.Core", "GreenHouse.Core\GreenHouse.Core.csproj", "{F2C314BD-5198-4C81-9948-936609BFC298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHouse.DAL", "GreenHouse.DAL\GreenHouse.DAL.csproj", "{E1EDC951-A74A-4307-9DA8-2B59BD1FF491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHouse.VM", "GreenHouse.VM\GreenHouse.VM.csproj", "{233B15B2-F6F3-4989-8781-6090C0F08F54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHouse.UI", "GreenHouse.UI\GreenHouse.UI.csproj", "{C902DD94-6A97-4724-878F-C3E06D8ED191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHouse.BLL", "GreenHouse.BLL\GreenHouse.BLL.csproj", "{27EE0C8E-3F30-4461-B248-70F97289D9D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenHouse.ExceptionHandling", "GreenHouse.ExceptionHandling\GreenHouse.ExceptionHandling.csproj", "{5C7BCEA6-D664-4F8D-AE1C-E0E61FF24E81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2C314BD-5198-4C81-9948-936609BFC298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C314BD-5198-4C81-9948-936609BFC298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C314BD-5198-4C81-9948-936609BFC298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C314BD-5198-4C81-9948-936609BFC298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1EDC951-A74A-4307-9DA8-2B59BD1FF491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1EDC951-A74A-4307-9DA8-2B59BD1FF491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1EDC951-A74A-4307-9DA8-2B59BD1FF491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1EDC951-A74A-4307-9DA8-2B59BD1FF491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233B15B2-F6F3-4989-8781-6090C0F08F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233B15B2-F6F3-4989-8781-6090C0F08F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233B15B2-F6F3-4989-8781-6090C0F08F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233B15B2-F6F3-4989-8781-6090C0F08F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C902DD94-6A97-4724-878F-C3E06D8ED191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C902DD94-6A97-4724-878F-C3E06D8ED191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C902DD94-6A97-4724-878F-C3E06D8ED191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C902DD94-6A97-4724-878F-C3E06D8ED191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27EE0C8E-3F30-4461-B248-70F97289D9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27EE0C8E-3F30-4461-B248-70F97289D9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27EE0C8E-3F30-4461-B248-70F97289D9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27EE0C8E-3F30-4461-B248-70F97289D9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C7BCEA6-D664-4F8D-AE1C-E0E61FF24E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7BCEA6-D664-4F8D-AE1C-E0E61FF24E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7BCEA6-D664-4F8D-AE1C-E0E61FF24E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7BCEA6-D664-4F8D-AE1C-E0E61FF24E81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {890907A4-1C71-4DED-822F-F326DE6F4EF5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+C:\Users\Akif\Downloads\GreenHouse\GreenHouse\ExceptionHandling\bin\Debug\ExceptionHandling.dll
+C:\Users\Akif\Downloads\GreenHouse\GreenHouse\ExceptionHandling\bin\Debug\ExceptionHandling.pdb
+C:\Users\Akif\Downloads\GreenHouse\GreenHouse\ExceptionHandling\obj\Debug\GreenHouse.ExceptionHandling.csproj.AssemblyReference.cache
+C:\Users\Akif\Downloads\GreenHouse\GreenHouse\ExceptionHandling\obj\Debug\GreenHouse.ExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\Akif\Downloads\GreenHouse\GreenHouse\ExceptionHandling\obj\Debug\ExceptionHandling.dll
+C:\Users\Akif\Downloads\GreenHouse\GreenHouse\ExceptionHandling\obj\Debug\ExceptionHandling.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.ExceptionHandling\bin\Debug\ExceptionHandling.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.ExceptionHandling\bin\Debug\ExceptionHandling.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.ExceptionHandling\obj\Debug\GreenHouse.ExceptionHandling.csproj.AssemblyReference.cache
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.ExceptionHandling\obj\Debug\GreenHouse.ExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.ExceptionHandling\obj\Debug\ExceptionHandling.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.ExceptionHandling\obj\Debug\ExceptionHandling.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.ExceptionHandling\bin\Debug\ExceptionHandling.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.ExceptionHandling\bin\Debug\ExceptionHandling.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.ExceptionHandling\obj\Debug\GreenHouse.ExceptionHandling.csproj.CoreCompileInputs.cache
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.ExceptionHandling\obj\Debug\ExceptionHandling.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.ExceptionHandling\obj\Debug\ExceptionHandling.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.ExceptionHandling\bin\Debug\ExceptionHandling.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.ExceptionHandling\bin\Debug\ExceptionHandling.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.ExceptionHandling\obj\Debug\GreenHouse.ExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.ExceptionHandling\obj\Debug\ExceptionHandling.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.ExceptionHandling\obj\Debug\ExceptionHandling.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.ExceptionHandling\obj\Debug\GreenHouse.ExceptionHandling.csproj.AssemblyReference.cache

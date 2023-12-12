@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C902DD94-6A97-4724-878F-C3E06D8ED191}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GreenHouse.UI</RootNamespace>
+    <AssemblyName>GreenHouse.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>5109134_green_home_house_media_neighborhood_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.5, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.5\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminPanel.UI\AdminMenuElemanUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminMenuElemanUI.Designer.cs">
+      <DependentUpon>AdminMenuElemanUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminMenuUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminMenuUI.Designer.cs">
+      <DependentUpon>AdminMenuUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminPanelUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminPanelUI.Designer.cs">
+      <DependentUpon>AdminPanelUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminSayfaMenuUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminSayfaMenuUI.Designer.cs">
+      <DependentUpon>AdminSayfaMenuUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminSayfaUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminSayfaUI.Designer.cs">
+      <DependentUpon>AdminSayfaUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminSayfaYetkiRolUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminSayfaYetkiRolUI.Designer.cs">
+      <DependentUpon>AdminSayfaYetkiRolUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUrunDetayUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUrunDetayUI.Designer.cs">
+      <DependentUpon>AdminUrunDetayUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUrunEkleBilesen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUrunEkleBilesen.Designer.cs">
+      <DependentUpon>AdminUrunEkleBilesen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUrunEkleFirma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUrunEkleFirma.Designer.cs">
+      <DependentUpon>AdminUrunEkleFirma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUrunOnayUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUrunOnayUI.Designer.cs">
+      <DependentUpon>AdminUrunOnayUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUserControlUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUserControlUI.Designer.cs">
+      <DependentUpon>AdminUserControlUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUygulamaUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUygulamaUI.Designer.cs">
+      <DependentUpon>AdminUygulamaUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminYetkiUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminYetkiUI.Designer.cs">
+      <DependentUpon>AdminYetkiUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminBilesenUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminBilesenUI.Designer.cs">
+      <DependentUpon>AdminBilesenUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminFirmaUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminFirmaUI.Designer.cs">
+      <DependentUpon>AdminFirmaUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminFirmaUrunUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminFirmaUrunUI.Designer.cs">
+      <DependentUpon>AdminFirmaUrunUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminKategoriUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminKategoriUI.Designer.cs">
+      <DependentUpon>AdminKategoriUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminResimUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminResimUI.Designer.cs">
+      <DependentUpon>AdminResimUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminRiskUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminRiskUI.Designer.cs">
+      <DependentUpon>AdminRiskUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUrunUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUrunUI.Designer.cs">
+      <DependentUpon>AdminUrunUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUrunIcerikUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.UI\AdminUrunIcerikUI.Designer.cs">
+      <DependentUpon>AdminUrunIcerikUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.1.AssemblyAttributes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\BlackList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\BlackList.Designer.cs">
+      <DependentUpon>BlackList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\BlackListIngredient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\BlackListIngredient.Designer.cs">
+      <DependentUpon>BlackListIngredient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmAbout.Designer.cs">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmAddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmAddProduct.Designer.cs">
+      <DependentUpon>FrmAddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmBarcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmBarcode.Designer.cs">
+      <DependentUpon>FrmBarcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmContactUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmContactUs.Designer.cs">
+      <DependentUpon>FrmContactUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmFavoriteList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmFavoriteList.Designer.cs">
+      <DependentUpon>FrmFavoriteList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmFavoriteListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmFavoriteListe.Designer.cs">
+      <DependentUpon>FrmFavoriteListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmFavorites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmFavorites.Designer.cs">
+      <DependentUpon>FrmFavorites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmForgetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmForgetPassword.Designer.cs">
+      <DependentUpon>FrmForgetPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmMainMenu.Designer.cs">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmMdiContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmMdiContainer.Designer.cs">
+      <DependentUpon>FrmMdiContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmPremium.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmPremium.Designer.cs">
+      <DependentUpon>FrmPremium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmSearch.Designer.cs">
+      <DependentUpon>FrmSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmSearchHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmSearchHistory.Designer.cs">
+      <DependentUpon>FrmSearchHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmSideMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmSideMenu.Designer.cs">
+      <DependentUpon>FrmSideMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmUser.Designer.cs">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmUserBilesen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmUserBilesen.Designer.cs">
+      <DependentUpon>FrmUserBilesen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmUserProductView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmUserProductView.Designer.cs">
+      <DependentUpon>FrmUserProductView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmUserResim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmUserResim.Designer.cs">
+      <DependentUpon>FrmUserResim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\ProductContent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\ProductContent.Designer.cs">
+      <DependentUpon>ProductContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserEmailReset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserEmailReset.Designer.cs">
+      <DependentUpon>UserEmailReset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserLogin.Designer.cs">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserPasswordReset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\UserPasswordReset.Designer.cs">
+      <DependentUpon>UserPasswordReset.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminPanel.UI\AdminMenuElemanUI.resx">
+      <DependentUpon>AdminMenuElemanUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminMenuUI.resx">
+      <DependentUpon>AdminMenuUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminPanelUI.resx">
+      <DependentUpon>AdminPanelUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminSayfaMenuUI.resx">
+      <DependentUpon>AdminSayfaMenuUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminSayfaUI.resx">
+      <DependentUpon>AdminSayfaUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminSayfaYetkiRolUI.resx">
+      <DependentUpon>AdminSayfaYetkiRolUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminUrunDetayUI.resx">
+      <DependentUpon>AdminUrunDetayUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminUrunEkleBilesen.resx">
+      <DependentUpon>AdminUrunEkleBilesen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminUrunEkleFirma.resx">
+      <DependentUpon>AdminUrunEkleFirma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminUrunOnayUI.resx">
+      <DependentUpon>AdminUrunOnayUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminUserControlUI.resx">
+      <DependentUpon>AdminUserControlUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminUygulamaUI.resx">
+      <DependentUpon>AdminUygulamaUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminYetkiUI.resx">
+      <DependentUpon>AdminYetkiUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminBilesenUI.resx">
+      <DependentUpon>AdminBilesenUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminFirmaUI.resx">
+      <DependentUpon>AdminFirmaUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminFirmaUrunUI.resx">
+      <DependentUpon>AdminFirmaUrunUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminKategoriUI.resx">
+      <DependentUpon>AdminKategoriUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminResimUI.resx">
+      <DependentUpon>AdminResimUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminRiskUI.resx">
+      <DependentUpon>AdminRiskUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminUrunUI.resx">
+      <DependentUpon>AdminUrunUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.UI\AdminUrunIcerikUI.resx">
+      <DependentUpon>AdminUrunIcerikUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="User\BlackList.resx">
+      <DependentUpon>BlackList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\BlackListIngredient.resx">
+      <DependentUpon>BlackListIngredient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmAddProduct.resx">
+      <DependentUpon>FrmAddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmBarcode.resx">
+      <DependentUpon>FrmBarcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmContactUs.resx">
+      <DependentUpon>FrmContactUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmFavoriteList.resx">
+      <DependentUpon>FrmFavoriteList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmFavoriteListe.resx">
+      <DependentUpon>FrmFavoriteListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmFavorites.resx">
+      <DependentUpon>FrmFavorites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmForgetPassword.resx">
+      <DependentUpon>FrmForgetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmMainMenu.resx">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmMdiContainer.resx">
+      <DependentUpon>FrmMdiContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmPremium.resx">
+      <DependentUpon>FrmPremium.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmSearch.resx">
+      <DependentUpon>FrmSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmSearchHistory.resx">
+      <DependentUpon>FrmSearchHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmSideMenu.resx">
+      <DependentUpon>FrmSideMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmUser.resx">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmUserBilesen.resx">
+      <DependentUpon>FrmUserBilesen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmUserProductView.resx">
+      <DependentUpon>FrmUserProductView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmUserResim.resx">
+      <DependentUpon>FrmUserResim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\ProductContent.resx">
+      <DependentUpon>ProductContent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserEmailReset.resx">
+      <DependentUpon>UserEmailReset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserLogin.resx">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\UserPasswordReset.resx">
+      <DependentUpon>UserPasswordReset.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="5109134_green_home_house_media_neighborhood_icon.ico" />
+    <Content Include="Icons\185090_delete_garbage_icon.png" />
+    <Content Include="Icons\1954554_hamburger_line_menu_more buttton_three_icon.png" />
+    <Content Include="Icons\3643769_building_home_house_main_menu_icon.png" />
+    <Content Include="Icons\6372984_add_buy_cart_new_plus_icon.png" />
+    <Content Include="Icons\8324223_ui_essential_app_avatar_profile_icon.png" />
+    <Content Include="Icons\8674435_ic_fluent_barcode_scanner_regular_icon.png" />
+    <Content Include="Icons\8680289_image_add_line_icon.png" />
+    <Content Include="Icons\8726224_shopping_cart_icon.png" />
+    <Content Include="Icons\9004811_search_find_magnifier_zoom_icon.png" />
+    <Content Include="Resources\1930258_green_info_information_icon.png" />
+    <None Include="Resources\1954554_hamburger_line_menu_more buttton_three_icon.png" />
+    <Content Include="Resources\587.jpg" />
+    <Content Include="Resources\587.png" />
+    <Content Include="Resources\admin-panel-bg.jpg" />
+    <Content Include="Resources\Ekran görüntüsü 2023-11-10 011034.png" />
+    <Content Include="Resources\Ekran görüntüsü 2023-11-10 011157.png" />
+    <Content Include="Resources\Ekran görüntüsü 2023-11-10 0111571.png" />
+    <None Include="Resources\Green Illustrative Organic Plant Zoom Virtual Background.png" />
+    <None Include="Resources\green-leaf-background-illustration-free-vector.jpg" />
+    <Content Include="Resources\house-structure-with-grass-background.jpg" />
+    <Content Include="Resources\house-structure-with-grass-background.png" />
+    <None Include="Resources\yaprak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GreenHouse.BLL\GreenHouse.BLL.csproj">
+      <Project>{27EE0C8E-3F30-4461-B248-70F97289D9D1}</Project>
+      <Name>GreenHouse.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenHouse.Core\GreenHouse.Core.csproj">
+      <Project>{F2C314BD-5198-4C81-9948-936609BFC298}</Project>
+      <Name>GreenHouse.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenHouse.DAL\GreenHouse.DAL.csproj">
+      <Project>{E1EDC951-A74A-4307-9DA8-2B59BD1FF491}</Project>
+      <Name>GreenHouse.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GreenHouse.VM\GreenHouse.VM.csproj">
+      <Project>{233B15B2-F6F3-4989-8781-6090C0F08F54}</Project>
+      <Name>GreenHouse.VM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

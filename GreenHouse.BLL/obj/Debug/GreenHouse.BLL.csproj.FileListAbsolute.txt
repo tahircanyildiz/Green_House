@@ -1,0 +1,86 @@
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.BLL.dll
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.BLL.pdb
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.DAL.dll
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.VM.dll
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\AutoMapper.dll
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\EntityFramework.dll
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.Core.dll
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.DAL.pdb
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.DAL.dll.config
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.VM.pdb
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\AutoMapper.xml
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\EntityFramework.xml
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.Core.pdb
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.Core.dll.config
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.csproj.AssemblyReference.cache
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.csproj.CoreCompileInputs.cache
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.csproj.CopyComplete
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.dll
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.pdb
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.BLL.dll.config
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.VM.dll.config
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\EntityFramework.SqlServer.dll
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\EntityFramework.SqlServer.xml
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\ExceptionHandling.dll
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\ExceptionHandling.pdb
+E:\engin\Documents\OneDrive\Desktop\GreenHouse\GreenHouse.BLL\bin\Debug\ExceptionHandling.dll.config
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.csproj.AssemblyReference.cache
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.csproj.CoreCompileInputs.cache
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.BLL.dll.config
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.BLL.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.BLL.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\ExceptionHandling.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.Core.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.DAL.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.VM.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\AutoMapper.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.Core.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.Core.dll.config
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.DAL.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.DAL.dll.config
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\ExceptionHandling.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.VM.pdb
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\bin\Debug\AutoMapper.xml
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.csproj.CopyComplete
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.dll
+C:\Users\ihsan\Desktop\Yeni klasör (2)\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.BLL.dll.config
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.BLL.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.BLL.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\ExceptionHandling.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.Core.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.DAL.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.VM.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\AutoMapper.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.Core.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.Core.dll.config
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.DAL.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.DAL.dll.config
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\ExceptionHandling.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.VM.pdb
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\bin\Debug\AutoMapper.xml
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.csproj.AssemblyReference.cache
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.csproj.CoreCompileInputs.cache
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.csproj.CopyComplete
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.dll
+E:\engin\Documents\OneDrive\Desktop\ghv2\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.BLL.dll.config
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.BLL.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.BLL.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\ExceptionHandling.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.Core.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.DAL.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.VM.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\AutoMapper.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.Core.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.Core.dll.config
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.DAL.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.DAL.dll.config
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\ExceptionHandling.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\GreenHouse.VM.pdb
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\bin\Debug\AutoMapper.xml
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.csproj.AssemblyReference.cache
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.csproj.CopyComplete
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.dll
+C:\Users\Akif\Downloads\GreenHouse (4)\GreenHouse\GreenHouse.BLL\obj\Debug\GreenHouse.BLL.pdb

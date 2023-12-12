@@ -1,0 +1,886 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GreenHouseDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Aktivite">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AktiviteAdi" Type="nvarchar" MaxLength="200" />
+    <Property Name="Puan" Type="int" />
+  </EntityType>
+  <EntityType Name="AramaGecmisi">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="AramaMetni" Type="nvarchar(max)" />
+    <Property Name="AramaZamani" Type="datetime" />
+    <Property Name="KullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="AktifMi" Type="bit" />
+  </EntityType>
+  <EntityType Name="Bilesen">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="200" />
+    <Property Name="Aciklama" Type="nvarchar(max)" />
+    <Property Name="RiskID" Type="int" />
+    <Property Name="AktifMi" Type="bit" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" />
+    <Property Name="OlusturanKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="DegistirilmeTarihi" Type="datetime" />
+    <Property Name="DegistirenKullaniciRolID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="Eleman">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MenuElemanAdi" Type="nvarchar" MaxLength="250" />
+    <Property Name="MenuIconYolu" Type="nvarchar(max)" />
+    <Property Name="MenuElemanSirasi" Type="int" />
+    <Property Name="MenuLinkAdresi" Type="nvarchar(max)" />
+    <Property Name="AktifMi" Type="bit" />
+  </EntityType>
+  <EntityType Name="Firma">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="FirmaAdi" Type="nvarchar" MaxLength="200" />
+    <Property Name="FirmaTel" Type="nvarchar" MaxLength="200" />
+    <Property Name="FirmaAdresi" Type="nvarchar(max)" />
+    <Property Name="AktifMi" Type="bit" />
+  </EntityType>
+  <EntityType Name="Kullanici">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="250" />
+    <Property Name="Soyadi" Type="nvarchar" MaxLength="250" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="PasswordHash" Type="nvarchar(max)" />
+    <Property Name="EmailOnayliMi" Type="bit" />
+    <Property Name="AktifMi" Type="bit" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" />
+    <Property Name="OlusturanKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="DegistirilmeTarihi" Type="datetime" />
+    <Property Name="DegistirenKullaniciRolID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="KullaniciAktivite">
+    <Key>
+      <PropertyRef Name="KullaniciRolID" />
+      <PropertyRef Name="AktiviteID" />
+    </Key>
+    <Property Name="KullaniciRolID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="AktiviteID" Type="int" Nullable="false" />
+    <Property Name="AktiviteZamani" Type="datetime" />
+    <Property Name="AktifMi" Type="bit" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" />
+    <Property Name="OlusturanKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="DegistirilmeTarihi" Type="datetime" />
+    <Property Name="DegistirenKullaniciRolID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="KullaniciListesi">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ListeAdi" Type="nvarchar" MaxLength="300" />
+    <Property Name="ÜstListeID" Type="uniqueidentifier" />
+    <Property Name="KullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="ListeTipiID" Type="int" />
+    <Property Name="AktifMi" Type="bit" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" />
+    <Property Name="OlusturanKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="DegistirilmeTarihi" Type="datetime" />
+    <Property Name="DegistirenKullaniciRolID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="KullaniciRolu">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="KullaniciID" Type="uniqueidentifier" />
+    <Property Name="RolID" Type="int" />
+    <Property Name="RoleAtandigiZaman" Type="datetime" />
+    <Property Name="AktifMi" Type="bit" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" />
+    <Property Name="OlusturanKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="DegistirilmeTarihi" Type="datetime" />
+    <Property Name="DegistirenKullaniciRolID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="KullaniciTipi">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TipAdi" Type="nvarchar" MaxLength="200" />
+    <Property Name="AktifMi" Type="bit" />
+    <Property Name="HedefPuan" Type="int" />
+  </EntityType>
+  <EntityType Name="KullaniciUygulamaIzni">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UygulamaIzinTipID" Type="int" />
+    <Property Name="KullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="IzinDurumu" Type="bit" />
+    <Property Name="AktifMi" Type="bit" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" />
+    <Property Name="OlusturanKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="DegistirilmeTarihi" Type="datetime" />
+    <Property Name="DegistirenKullaniciRolID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="ListeIcerigi">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ListeID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UrunMu" Type="bit" />
+    <Property Name="IcerikID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" />
+    <Property Name="OlusturanKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="DegistirilmeTarihi" Type="datetime" />
+    <Property Name="DegistirenKullaniciRolID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="ListeTip">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TipAdi" Type="nvarchar" MaxLength="200" />
+    <Property Name="AktifMi" Type="bit" />
+  </EntityType>
+  <EntityType Name="Menu">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MenuAdi" Type="nvarchar" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="MenuEleman">
+    <Key>
+      <PropertyRef Name="MenuID" />
+      <PropertyRef Name="ElemanID" />
+    </Key>
+    <Property Name="MenuID" Type="int" Nullable="false" />
+    <Property Name="ElemanID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Resim">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UrunID" Type="uniqueidentifier" />
+    <Property Name="ResimYuzu" Type="bit" />
+    <Property Name="ResimYolu" Type="nvarchar(max)" />
+    <Property Name="AktifMi" Type="bit" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" />
+    <Property Name="OlusturanKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="DegistirilmeTarihi" Type="datetime" />
+    <Property Name="DegistirenKullaniciRolID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="Risk">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RiskTur" Type="nvarchar" MaxLength="200" />
+    <Property Name="AktifMi" Type="bit" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" />
+    <Property Name="OlusturanKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="DegistirilmeTarihi" Type="datetime" />
+    <Property Name="DegistirenKullaniciRolID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="Rol">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RolAdi" Type="nvarchar" MaxLength="150" />
+    <Property Name="AktifMi" Type="bit" />
+  </EntityType>
+  <EntityType Name="Sayfa">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SayfaAdi" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="SayfaMenu">
+    <Key>
+      <PropertyRef Name="SayfaID" />
+      <PropertyRef Name="MenuID" />
+    </Key>
+    <Property Name="SayfaID" Type="int" Nullable="false" />
+    <Property Name="MenuID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SayfaYetki">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SayfaID" Type="int" />
+    <Property Name="RolID" Type="int" />
+    <Property Name="YetkiID" Type="int" />
+    <Property Name="AktifMi" Type="bit" />
+  </EntityType>
+  <EntityType Name="Urun">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="BarkodNumarasi" Type="nvarchar" MaxLength="30" />
+    <Property Name="UrunAdi" Type="nvarchar" MaxLength="200" />
+    <Property Name="KategoriID" Type="int" />
+    <Property Name="UrunAciklamasi" Type="nvarchar(max)" />
+    <Property Name="AktifMi" Type="bit" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" />
+    <Property Name="OlusturanKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="DegistirilmeTarihi" Type="datetime" />
+    <Property Name="DegistirenKullaniciRolID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="UrunFirma">
+    <Key>
+      <PropertyRef Name="UrunID" />
+      <PropertyRef Name="FirmaID" />
+    </Key>
+    <Property Name="UrunID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="FirmaID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="AktifMi" Type="bit" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" />
+    <Property Name="OlusturanKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="DegistirilmeTarihi" Type="datetime" />
+    <Property Name="DegistirenKullaniciRolID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="UrunIcerik">
+    <Key>
+      <PropertyRef Name="UrunID" />
+      <PropertyRef Name="BilesenID" />
+    </Key>
+    <Property Name="UrunID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="BilesenID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="AktifMİ" Type="bit" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" />
+    <Property Name="OlusturanKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="DegistirilmeTarihi" Type="datetime" />
+    <Property Name="DegistirenKullaniciRolID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="UrunKategori">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KategoriAdi" Type="nvarchar" MaxLength="300" />
+    <Property Name="UstKategoriID" Type="int" />
+    <Property Name="AktifMi" Type="bit" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" />
+    <Property Name="OlusturanKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="DegistirilmeTarihi" Type="datetime" />
+    <Property Name="DegistirenKullaniciRolID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="UrunOnay">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="TakipNumarasi" Type="nvarchar" MaxLength="30" />
+    <Property Name="UrunID" Type="uniqueidentifier" />
+    <Property Name="KullaniciGozukmeDurumu" Type="bit" />
+    <Property Name="EkleyenKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="InceleyenKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="OnayDurumu" Type="bit" />
+    <Property Name="IncelemeZamani" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UygulamaAyar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="100" />
+    <Property Name="LogoResimYolu" Type="nvarchar(max)" />
+    <Property Name="KullanimKosullariniGostermeDurumu" Type="bit" />
+    <Property Name="AktifMi" Type="bit" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" />
+    <Property Name="OlusturanKullaniciRolID" Type="uniqueidentifier" />
+    <Property Name="DegistirilmeTarihi" Type="datetime" />
+    <Property Name="DegistirenKullaniciRolID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="UygulamaIzinTip">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IzinKategoriAdi" Type="nvarchar" MaxLength="200" />
+    <Property Name="UstKategoriIzinID" Type="int" />
+    <Property Name="AktifMi" Type="bit" />
+  </EntityType>
+  <EntityType Name="Yetki">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'GreenHouseDB.dbo.VW_KullaniciIzinDurumlari' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="VW_KullaniciIzinDurumlari">
+          <Property Name="Adi" Type="nvarchar" MaxLength="250" />
+          <Property Name="Soyadi" Type="nvarchar" MaxLength="250" />
+          <Property Name="IzinKategoriAdi" Type="nvarchar" MaxLength="200" />
+          <Property Name="IzinDurumu" Type="bit" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'GreenHouseDB.dbo.VW_KullaniciRolAtamalari' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="VW_KullaniciRolAtamalari">
+          <Property Name="Adi" Type="nvarchar" MaxLength="250" />
+          <Property Name="Soyadi" Type="nvarchar" MaxLength="250" />
+          <Property Name="RolAdi" Type="nvarchar" MaxLength="150" />
+          <Property Name="RoleAtandigiZaman" Type="datetime" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'GreenHouseDB.dbo.VW_UrunBilesenRiskDurumu' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="VW_UrunBilesenRiskDurumu">
+          <Property Name="UrunAdi" Type="nvarchar" MaxLength="200" />
+          <Property Name="Adi" Type="nvarchar" MaxLength="200" />
+          <Property Name="RiskTur" Type="nvarchar" MaxLength="200" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'GreenHouseDB.dbo.VW_UrunKategoriFirma' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="VW_UrunKategoriFirma">
+          <Property Name="UrunAdi" Type="nvarchar" MaxLength="200" />
+          <Property Name="KategoriAdi" Type="nvarchar" MaxLength="300" />
+          <Property Name="FirmaAdi" Type="nvarchar" MaxLength="200" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'GreenHouseDB.dbo.VW_UygulamaAyarlariKapsulleme' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VW_UygulamaAyarlariKapsulleme">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Adi" Type="nvarchar" MaxLength="100" />
+    <Property Name="KullanimKosullariniGostermeDurumu" Type="bit" />
+    <Property Name="LogoResimYolu" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_Bilesen_Risk">
+    <End Role="Risk" Type="Self.Risk" Multiplicity="0..1" />
+    <End Role="Bilesen" Type="Self.Bilesen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Risk">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Bilesen">
+        <PropertyRef Name="RiskID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KullaniciAktivite_Aktivite">
+    <End Role="Aktivite" Type="Self.Aktivite" Multiplicity="1" />
+    <End Role="KullaniciAktivite" Type="Self.KullaniciAktivite" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Aktivite">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KullaniciAktivite">
+        <PropertyRef Name="AktiviteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KullaniciAktivite_KullaniciRolu">
+    <End Role="KullaniciRolu" Type="Self.KullaniciRolu" Multiplicity="1" />
+    <End Role="KullaniciAktivite" Type="Self.KullaniciAktivite" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KullaniciRolu">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KullaniciAktivite">
+        <PropertyRef Name="KullaniciRolID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KullaniciListesi_KullaniciListesi">
+    <End Role="KullaniciListesi" Type="Self.KullaniciListesi" Multiplicity="0..1" />
+    <End Role="KullaniciListesi1" Type="Self.KullaniciListesi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KullaniciListesi">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KullaniciListesi1">
+        <PropertyRef Name="ÜstListeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KullaniciListesi_KullaniciRolu">
+    <End Role="KullaniciRolu" Type="Self.KullaniciRolu" Multiplicity="0..1" />
+    <End Role="KullaniciListesi" Type="Self.KullaniciListesi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KullaniciRolu">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KullaniciListesi">
+        <PropertyRef Name="KullaniciRolID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KullaniciListesi_ListeTip">
+    <End Role="ListeTip" Type="Self.ListeTip" Multiplicity="0..1" />
+    <End Role="KullaniciListesi" Type="Self.KullaniciListesi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ListeTip">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KullaniciListesi">
+        <PropertyRef Name="ListeTipiID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KullaniciRolu_Kullanici">
+    <End Role="Kullanici" Type="Self.Kullanici" Multiplicity="0..1" />
+    <End Role="KullaniciRolu" Type="Self.KullaniciRolu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kullanici">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KullaniciRolu">
+        <PropertyRef Name="KullaniciID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KullaniciRolu_Rol">
+    <End Role="Rol" Type="Self.Rol" Multiplicity="0..1" />
+    <End Role="KullaniciRolu" Type="Self.KullaniciRolu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rol">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KullaniciRolu">
+        <PropertyRef Name="RolID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KullaniciUygulamaIzni_KullaniciRolu">
+    <End Role="KullaniciRolu" Type="Self.KullaniciRolu" Multiplicity="0..1" />
+    <End Role="KullaniciUygulamaIzni" Type="Self.KullaniciUygulamaIzni" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KullaniciRolu">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KullaniciUygulamaIzni">
+        <PropertyRef Name="KullaniciRolID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KullaniciUygulamaIzni_UygulamaIzinTip1">
+    <End Role="UygulamaIzinTip" Type="Self.UygulamaIzinTip" Multiplicity="0..1" />
+    <End Role="KullaniciUygulamaIzni" Type="Self.KullaniciUygulamaIzni" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UygulamaIzinTip">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="KullaniciUygulamaIzni">
+        <PropertyRef Name="UygulamaIzinTipID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ListeIcerigi_KullaniciListesi2">
+    <End Role="KullaniciListesi" Type="Self.KullaniciListesi" Multiplicity="1" />
+    <End Role="ListeIcerigi" Type="Self.ListeIcerigi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KullaniciListesi">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ListeIcerigi">
+        <PropertyRef Name="ListeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MenuEleman_Eleman">
+    <End Role="Eleman" Type="Self.Eleman" Multiplicity="1" />
+    <End Role="MenuEleman" Type="Self.MenuEleman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Eleman">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MenuEleman">
+        <PropertyRef Name="ElemanID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MenuEleman_Menu">
+    <End Role="Menu" Type="Self.Menu" Multiplicity="1" />
+    <End Role="MenuEleman" Type="Self.MenuEleman" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Menu">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="MenuEleman">
+        <PropertyRef Name="MenuID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Resim_Urun">
+    <End Role="Urun" Type="Self.Urun" Multiplicity="0..1" />
+    <End Role="Resim" Type="Self.Resim" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urun">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Resim">
+        <PropertyRef Name="UrunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SayfaMenu_Menu">
+    <End Role="Menu" Type="Self.Menu" Multiplicity="1" />
+    <End Role="SayfaMenu" Type="Self.SayfaMenu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Menu">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SayfaMenu">
+        <PropertyRef Name="MenuID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SayfaMenu_Sayfa">
+    <End Role="Sayfa" Type="Self.Sayfa" Multiplicity="1" />
+    <End Role="SayfaMenu" Type="Self.SayfaMenu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sayfa">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SayfaMenu">
+        <PropertyRef Name="SayfaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SayfaYetki_Rol">
+    <End Role="Rol" Type="Self.Rol" Multiplicity="0..1" />
+    <End Role="SayfaYetki" Type="Self.SayfaYetki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rol">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SayfaYetki">
+        <PropertyRef Name="RolID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SayfaYetki_Sayfa">
+    <End Role="Sayfa" Type="Self.Sayfa" Multiplicity="0..1" />
+    <End Role="SayfaYetki" Type="Self.SayfaYetki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sayfa">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SayfaYetki">
+        <PropertyRef Name="SayfaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SayfaYetki_Yetki">
+    <End Role="Yetki" Type="Self.Yetki" Multiplicity="0..1" />
+    <End Role="SayfaYetki" Type="Self.SayfaYetki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Yetki">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="SayfaYetki">
+        <PropertyRef Name="YetkiID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Urun_UrunKategori">
+    <End Role="UrunKategori" Type="Self.UrunKategori" Multiplicity="0..1" />
+    <End Role="Urun" Type="Self.Urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UrunKategori">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Urun">
+        <PropertyRef Name="KategoriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UrunFirma_Firma">
+    <End Role="Firma" Type="Self.Firma" Multiplicity="1" />
+    <End Role="UrunFirma" Type="Self.UrunFirma" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Firma">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="UrunFirma">
+        <PropertyRef Name="FirmaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UrunFirma_Urun">
+    <End Role="Urun" Type="Self.Urun" Multiplicity="1" />
+    <End Role="UrunFirma" Type="Self.UrunFirma" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urun">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="UrunFirma">
+        <PropertyRef Name="UrunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UrunIcerik_Bilesen">
+    <End Role="Bilesen" Type="Self.Bilesen" Multiplicity="1" />
+    <End Role="UrunIcerik" Type="Self.UrunIcerik" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bilesen">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="UrunIcerik">
+        <PropertyRef Name="BilesenID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UrunIcerik_Urun">
+    <End Role="Urun" Type="Self.Urun" Multiplicity="1" />
+    <End Role="UrunIcerik" Type="Self.UrunIcerik" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urun">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="UrunIcerik">
+        <PropertyRef Name="UrunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UrunKategori_UrunKategori">
+    <End Role="UrunKategori" Type="Self.UrunKategori" Multiplicity="0..1" />
+    <End Role="UrunKategori1" Type="Self.UrunKategori" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UrunKategori">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="UrunKategori1">
+        <PropertyRef Name="UstKategoriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UrunOnay_KullaniciRolu">
+    <End Role="KullaniciRolu" Type="Self.KullaniciRolu" Multiplicity="0..1" />
+    <End Role="UrunOnay" Type="Self.UrunOnay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KullaniciRolu">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="UrunOnay">
+        <PropertyRef Name="EkleyenKullaniciRolID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UrunOnay_KullaniciRolu1">
+    <End Role="KullaniciRolu" Type="Self.KullaniciRolu" Multiplicity="0..1" />
+    <End Role="UrunOnay" Type="Self.UrunOnay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KullaniciRolu">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="UrunOnay">
+        <PropertyRef Name="InceleyenKullaniciRolID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UrunOnay_Urun">
+    <End Role="Urun" Type="Self.Urun" Multiplicity="0..1" />
+    <End Role="UrunOnay" Type="Self.UrunOnay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urun">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="UrunOnay">
+        <PropertyRef Name="UrunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="FN_KullaniciHesapPuaniHesapla" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="kullaniciID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="FN_KullaniciTipiBelirle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="kullaniciID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="SP_AramaGecmisi" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="baslangicZamani" Type="datetime" Mode="In" />
+    <Parameter Name="bitisZamani" Type="datetime" Mode="In" />
+    <Parameter Name="metin" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="SP_FirmaUrunKategoriSayi" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_HangiUrunKacKezReddedilmistir" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Sp_KullanicilarinUygulamaUzerindekiIzinGruplari" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Sp_KullaniciRolGruplari" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_KullaniciUrunEklemeZamanRol" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tarih" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="SP_MailAdresiFiltrele" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="metin" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="SP_SeciliUrunIcerigiHangiUrunlerdeVar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="bilesenAdi" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="SP_UrunIcerikleriniGrupla" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="UrunKayitIsleminiTamamla" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="urunID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <EntityContainer Name="GreenHouseDBModelStoreContainer">
+    <EntitySet Name="Aktivite" EntityType="Self.Aktivite" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AramaGecmisi" EntityType="Self.AramaGecmisi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Bilesen" EntityType="Self.Bilesen" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Eleman" EntityType="Self.Eleman" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Firma" EntityType="Self.Firma" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kullanici" EntityType="Self.Kullanici" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KullaniciAktivite" EntityType="Self.KullaniciAktivite" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KullaniciListesi" EntityType="Self.KullaniciListesi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KullaniciRolu" EntityType="Self.KullaniciRolu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KullaniciTipi" EntityType="Self.KullaniciTipi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KullaniciUygulamaIzni" EntityType="Self.KullaniciUygulamaIzni" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ListeIcerigi" EntityType="Self.ListeIcerigi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ListeTip" EntityType="Self.ListeTip" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Menu" EntityType="Self.Menu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MenuEleman" EntityType="Self.MenuEleman" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Resim" EntityType="Self.Resim" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Risk" EntityType="Self.Risk" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rol" EntityType="Self.Rol" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sayfa" EntityType="Self.Sayfa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SayfaMenu" EntityType="Self.SayfaMenu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SayfaYetki" EntityType="Self.SayfaYetki" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Urun" EntityType="Self.Urun" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UrunFirma" EntityType="Self.UrunFirma" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UrunIcerik" EntityType="Self.UrunIcerik" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UrunKategori" EntityType="Self.UrunKategori" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UrunOnay" EntityType="Self.UrunOnay" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UygulamaAyar" EntityType="Self.UygulamaAyar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UygulamaIzinTip" EntityType="Self.UygulamaIzinTip" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Yetki" EntityType="Self.Yetki" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VW_UygulamaAyarlariKapsulleme" EntityType="Self.VW_UygulamaAyarlariKapsulleme" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VW_UygulamaAyarlariKapsulleme].[ID] AS [ID], 
+    [VW_UygulamaAyarlariKapsulleme].[Adi] AS [Adi], 
+    [VW_UygulamaAyarlariKapsulleme].[KullanimKosullariniGostermeDurumu] AS [KullanimKosullariniGostermeDurumu], 
+    [VW_UygulamaAyarlariKapsulleme].[LogoResimYolu] AS [LogoResimYolu]
+    FROM [dbo].[VW_UygulamaAyarlariKapsulleme] AS [VW_UygulamaAyarlariKapsulleme]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Bilesen_Risk" Association="Self.FK_Bilesen_Risk">
+      <End Role="Risk" EntitySet="Risk" />
+      <End Role="Bilesen" EntitySet="Bilesen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KullaniciAktivite_Aktivite" Association="Self.FK_KullaniciAktivite_Aktivite">
+      <End Role="Aktivite" EntitySet="Aktivite" />
+      <End Role="KullaniciAktivite" EntitySet="KullaniciAktivite" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KullaniciAktivite_KullaniciRolu" Association="Self.FK_KullaniciAktivite_KullaniciRolu">
+      <End Role="KullaniciRolu" EntitySet="KullaniciRolu" />
+      <End Role="KullaniciAktivite" EntitySet="KullaniciAktivite" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KullaniciListesi_KullaniciListesi" Association="Self.FK_KullaniciListesi_KullaniciListesi">
+      <End Role="KullaniciListesi" EntitySet="KullaniciListesi" />
+      <End Role="KullaniciListesi1" EntitySet="KullaniciListesi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KullaniciListesi_KullaniciRolu" Association="Self.FK_KullaniciListesi_KullaniciRolu">
+      <End Role="KullaniciRolu" EntitySet="KullaniciRolu" />
+      <End Role="KullaniciListesi" EntitySet="KullaniciListesi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KullaniciListesi_ListeTip" Association="Self.FK_KullaniciListesi_ListeTip">
+      <End Role="ListeTip" EntitySet="ListeTip" />
+      <End Role="KullaniciListesi" EntitySet="KullaniciListesi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KullaniciRolu_Kullanici" Association="Self.FK_KullaniciRolu_Kullanici">
+      <End Role="Kullanici" EntitySet="Kullanici" />
+      <End Role="KullaniciRolu" EntitySet="KullaniciRolu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KullaniciRolu_Rol" Association="Self.FK_KullaniciRolu_Rol">
+      <End Role="Rol" EntitySet="Rol" />
+      <End Role="KullaniciRolu" EntitySet="KullaniciRolu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KullaniciUygulamaIzni_KullaniciRolu" Association="Self.FK_KullaniciUygulamaIzni_KullaniciRolu">
+      <End Role="KullaniciRolu" EntitySet="KullaniciRolu" />
+      <End Role="KullaniciUygulamaIzni" EntitySet="KullaniciUygulamaIzni" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KullaniciUygulamaIzni_UygulamaIzinTip1" Association="Self.FK_KullaniciUygulamaIzni_UygulamaIzinTip1">
+      <End Role="UygulamaIzinTip" EntitySet="UygulamaIzinTip" />
+      <End Role="KullaniciUygulamaIzni" EntitySet="KullaniciUygulamaIzni" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ListeIcerigi_KullaniciListesi2" Association="Self.FK_ListeIcerigi_KullaniciListesi2">
+      <End Role="KullaniciListesi" EntitySet="KullaniciListesi" />
+      <End Role="ListeIcerigi" EntitySet="ListeIcerigi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MenuEleman_Eleman" Association="Self.FK_MenuEleman_Eleman">
+      <End Role="Eleman" EntitySet="Eleman" />
+      <End Role="MenuEleman" EntitySet="MenuEleman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MenuEleman_Menu" Association="Self.FK_MenuEleman_Menu">
+      <End Role="Menu" EntitySet="Menu" />
+      <End Role="MenuEleman" EntitySet="MenuEleman" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Resim_Urun" Association="Self.FK_Resim_Urun">
+      <End Role="Urun" EntitySet="Urun" />
+      <End Role="Resim" EntitySet="Resim" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SayfaMenu_Menu" Association="Self.FK_SayfaMenu_Menu">
+      <End Role="Menu" EntitySet="Menu" />
+      <End Role="SayfaMenu" EntitySet="SayfaMenu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SayfaMenu_Sayfa" Association="Self.FK_SayfaMenu_Sayfa">
+      <End Role="Sayfa" EntitySet="Sayfa" />
+      <End Role="SayfaMenu" EntitySet="SayfaMenu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SayfaYetki_Rol" Association="Self.FK_SayfaYetki_Rol">
+      <End Role="Rol" EntitySet="Rol" />
+      <End Role="SayfaYetki" EntitySet="SayfaYetki" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SayfaYetki_Sayfa" Association="Self.FK_SayfaYetki_Sayfa">
+      <End Role="Sayfa" EntitySet="Sayfa" />
+      <End Role="SayfaYetki" EntitySet="SayfaYetki" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SayfaYetki_Yetki" Association="Self.FK_SayfaYetki_Yetki">
+      <End Role="Yetki" EntitySet="Yetki" />
+      <End Role="SayfaYetki" EntitySet="SayfaYetki" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Urun_UrunKategori" Association="Self.FK_Urun_UrunKategori">
+      <End Role="UrunKategori" EntitySet="UrunKategori" />
+      <End Role="Urun" EntitySet="Urun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UrunFirma_Firma" Association="Self.FK_UrunFirma_Firma">
+      <End Role="Firma" EntitySet="Firma" />
+      <End Role="UrunFirma" EntitySet="UrunFirma" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UrunFirma_Urun" Association="Self.FK_UrunFirma_Urun">
+      <End Role="Urun" EntitySet="Urun" />
+      <End Role="UrunFirma" EntitySet="UrunFirma" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UrunIcerik_Bilesen" Association="Self.FK_UrunIcerik_Bilesen">
+      <End Role="Bilesen" EntitySet="Bilesen" />
+      <End Role="UrunIcerik" EntitySet="UrunIcerik" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UrunIcerik_Urun" Association="Self.FK_UrunIcerik_Urun">
+      <End Role="Urun" EntitySet="Urun" />
+      <End Role="UrunIcerik" EntitySet="UrunIcerik" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UrunKategori_UrunKategori" Association="Self.FK_UrunKategori_UrunKategori">
+      <End Role="UrunKategori" EntitySet="UrunKategori" />
+      <End Role="UrunKategori1" EntitySet="UrunKategori" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UrunOnay_KullaniciRolu" Association="Self.FK_UrunOnay_KullaniciRolu">
+      <End Role="KullaniciRolu" EntitySet="KullaniciRolu" />
+      <End Role="UrunOnay" EntitySet="UrunOnay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UrunOnay_KullaniciRolu1" Association="Self.FK_UrunOnay_KullaniciRolu1">
+      <End Role="KullaniciRolu" EntitySet="KullaniciRolu" />
+      <End Role="UrunOnay" EntitySet="UrunOnay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UrunOnay_Urun" Association="Self.FK_UrunOnay_Urun">
+      <End Role="Urun" EntitySet="Urun" />
+      <End Role="UrunOnay" EntitySet="UrunOnay" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

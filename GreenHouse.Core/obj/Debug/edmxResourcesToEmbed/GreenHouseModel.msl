@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GreenHouseDBModelStoreContainer" CdmEntityContainer="GreenHouseDBEntities">
+    <EntitySetMapping Name="Aktivite">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.Aktivite">
+        <MappingFragment StoreEntitySet="Aktivite">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AktiviteAdi" ColumnName="AktiviteAdi" />
+          <ScalarProperty Name="Puan" ColumnName="Puan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AramaGecmisi">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.AramaGecmisi">
+        <MappingFragment StoreEntitySet="AramaGecmisi">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AramaMetni" ColumnName="AramaMetni" />
+          <ScalarProperty Name="AramaZamani" ColumnName="AramaZamani" />
+          <ScalarProperty Name="KullaniciRolID" ColumnName="KullaniciRolID" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bilesen">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.Bilesen">
+        <MappingFragment StoreEntitySet="Bilesen">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="Aciklama" ColumnName="Aciklama" />
+          <ScalarProperty Name="RiskID" ColumnName="RiskID" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+          <ScalarProperty Name="OlusturulmaTarihi" ColumnName="OlusturulmaTarihi" />
+          <ScalarProperty Name="OlusturanKullaniciRolID" ColumnName="OlusturanKullaniciRolID" />
+          <ScalarProperty Name="DegistirilmeTarihi" ColumnName="DegistirilmeTarihi" />
+          <ScalarProperty Name="DegistirenKullaniciRolID" ColumnName="DegistirenKullaniciRolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Eleman">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.Eleman">
+        <MappingFragment StoreEntitySet="Eleman">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MenuElemanAdi" ColumnName="MenuElemanAdi" />
+          <ScalarProperty Name="MenuIconYolu" ColumnName="MenuIconYolu" />
+          <ScalarProperty Name="MenuElemanSirasi" ColumnName="MenuElemanSirasi" />
+          <ScalarProperty Name="MenuLinkAdresi" ColumnName="MenuLinkAdresi" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Firma">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.Firma">
+        <MappingFragment StoreEntitySet="Firma">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FirmaAdi" ColumnName="FirmaAdi" />
+          <ScalarProperty Name="FirmaTel" ColumnName="FirmaTel" />
+          <ScalarProperty Name="FirmaAdresi" ColumnName="FirmaAdresi" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kullanici">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.Kullanici">
+        <MappingFragment StoreEntitySet="Kullanici">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="Soyadi" ColumnName="Soyadi" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="EmailOnayliMi" ColumnName="EmailOnayliMi" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+          <ScalarProperty Name="OlusturulmaTarihi" ColumnName="OlusturulmaTarihi" />
+          <ScalarProperty Name="OlusturanKullaniciRolID" ColumnName="OlusturanKullaniciRolID" />
+          <ScalarProperty Name="DegistirilmeTarihi" ColumnName="DegistirilmeTarihi" />
+          <ScalarProperty Name="DegistirenKullaniciRolID" ColumnName="DegistirenKullaniciRolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KullaniciAktivite">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.KullaniciAktivite">
+        <MappingFragment StoreEntitySet="KullaniciAktivite">
+          <ScalarProperty Name="KullaniciRolID" ColumnName="KullaniciRolID" />
+          <ScalarProperty Name="AktiviteID" ColumnName="AktiviteID" />
+          <ScalarProperty Name="AktiviteZamani" ColumnName="AktiviteZamani" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+          <ScalarProperty Name="OlusturulmaTarihi" ColumnName="OlusturulmaTarihi" />
+          <ScalarProperty Name="OlusturanKullaniciRolID" ColumnName="OlusturanKullaniciRolID" />
+          <ScalarProperty Name="DegistirilmeTarihi" ColumnName="DegistirilmeTarihi" />
+          <ScalarProperty Name="DegistirenKullaniciRolID" ColumnName="DegistirenKullaniciRolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KullaniciListesi">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.KullaniciListesi">
+        <MappingFragment StoreEntitySet="KullaniciListesi">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ListeAdi" ColumnName="ListeAdi" />
+          <ScalarProperty Name="ÜstListeID" ColumnName="ÜstListeID" />
+          <ScalarProperty Name="KullaniciRolID" ColumnName="KullaniciRolID" />
+          <ScalarProperty Name="ListeTipiID" ColumnName="ListeTipiID" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+          <ScalarProperty Name="OlusturulmaTarihi" ColumnName="OlusturulmaTarihi" />
+          <ScalarProperty Name="OlusturanKullaniciRolID" ColumnName="OlusturanKullaniciRolID" />
+          <ScalarProperty Name="DegistirilmeTarihi" ColumnName="DegistirilmeTarihi" />
+          <ScalarProperty Name="DegistirenKullaniciRolID" ColumnName="DegistirenKullaniciRolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KullaniciRolu">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.KullaniciRolu">
+        <MappingFragment StoreEntitySet="KullaniciRolu">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="RolID" ColumnName="RolID" />
+          <ScalarProperty Name="RoleAtandigiZaman" ColumnName="RoleAtandigiZaman" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+          <ScalarProperty Name="OlusturulmaTarihi" ColumnName="OlusturulmaTarihi" />
+          <ScalarProperty Name="OlusturanKullaniciRolID" ColumnName="OlusturanKullaniciRolID" />
+          <ScalarProperty Name="DegistirilmeTarihi" ColumnName="DegistirilmeTarihi" />
+          <ScalarProperty Name="DegistirenKullaniciRolID" ColumnName="DegistirenKullaniciRolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KullaniciTipi">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.KullaniciTipi">
+        <MappingFragment StoreEntitySet="KullaniciTipi">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TipAdi" ColumnName="TipAdi" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+          <ScalarProperty Name="HedefPuan" ColumnName="HedefPuan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KullaniciUygulamaIzni">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.KullaniciUygulamaIzni">
+        <MappingFragment StoreEntitySet="KullaniciUygulamaIzni">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UygulamaIzinTipID" ColumnName="UygulamaIzinTipID" />
+          <ScalarProperty Name="KullaniciRolID" ColumnName="KullaniciRolID" />
+          <ScalarProperty Name="IzinDurumu" ColumnName="IzinDurumu" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+          <ScalarProperty Name="OlusturulmaTarihi" ColumnName="OlusturulmaTarihi" />
+          <ScalarProperty Name="OlusturanKullaniciRolID" ColumnName="OlusturanKullaniciRolID" />
+          <ScalarProperty Name="DegistirilmeTarihi" ColumnName="DegistirilmeTarihi" />
+          <ScalarProperty Name="DegistirenKullaniciRolID" ColumnName="DegistirenKullaniciRolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ListeIcerigi">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.ListeIcerigi">
+        <MappingFragment StoreEntitySet="ListeIcerigi">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ListeID" ColumnName="ListeID" />
+          <ScalarProperty Name="UrunMu" ColumnName="UrunMu" />
+          <ScalarProperty Name="IcerikID" ColumnName="IcerikID" />
+          <ScalarProperty Name="OlusturulmaTarihi" ColumnName="OlusturulmaTarihi" />
+          <ScalarProperty Name="OlusturanKullaniciRolID" ColumnName="OlusturanKullaniciRolID" />
+          <ScalarProperty Name="DegistirilmeTarihi" ColumnName="DegistirilmeTarihi" />
+          <ScalarProperty Name="DegistirenKullaniciRolID" ColumnName="DegistirenKullaniciRolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ListeTip">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.ListeTip">
+        <MappingFragment StoreEntitySet="ListeTip">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TipAdi" ColumnName="TipAdi" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Menu">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.Menu">
+        <MappingFragment StoreEntitySet="Menu">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MenuAdi" ColumnName="MenuAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Resim">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.Resim">
+        <MappingFragment StoreEntitySet="Resim">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+          <ScalarProperty Name="ResimYuzu" ColumnName="ResimYuzu" />
+          <ScalarProperty Name="ResimYolu" ColumnName="ResimYolu" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+          <ScalarProperty Name="OlusturulmaTarihi" ColumnName="OlusturulmaTarihi" />
+          <ScalarProperty Name="OlusturanKullaniciRolID" ColumnName="OlusturanKullaniciRolID" />
+          <ScalarProperty Name="DegistirilmeTarihi" ColumnName="DegistirilmeTarihi" />
+          <ScalarProperty Name="DegistirenKullaniciRolID" ColumnName="DegistirenKullaniciRolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Risk">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.Risk">
+        <MappingFragment StoreEntitySet="Risk">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="RiskTur" ColumnName="RiskTur" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+          <ScalarProperty Name="OlusturulmaTarihi" ColumnName="OlusturulmaTarihi" />
+          <ScalarProperty Name="OlusturanKullaniciRolID" ColumnName="OlusturanKullaniciRolID" />
+          <ScalarProperty Name="DegistirilmeTarihi" ColumnName="DegistirilmeTarihi" />
+          <ScalarProperty Name="DegistirenKullaniciRolID" ColumnName="DegistirenKullaniciRolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rol">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.Rol">
+        <MappingFragment StoreEntitySet="Rol">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="RolAdi" ColumnName="RolAdi" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sayfa">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.Sayfa">
+        <MappingFragment StoreEntitySet="Sayfa">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SayfaAdi" ColumnName="SayfaAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SayfaYetki">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.SayfaYetki">
+        <MappingFragment StoreEntitySet="SayfaYetki">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SayfaID" ColumnName="SayfaID" />
+          <ScalarProperty Name="RolID" ColumnName="RolID" />
+          <ScalarProperty Name="YetkiID" ColumnName="YetkiID" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Urun">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.Urun">
+        <MappingFragment StoreEntitySet="Urun">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BarkodNumarasi" ColumnName="BarkodNumarasi" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+          <ScalarProperty Name="UrunAciklamasi" ColumnName="UrunAciklamasi" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+          <ScalarProperty Name="OlusturulmaTarihi" ColumnName="OlusturulmaTarihi" />
+          <ScalarProperty Name="OlusturanKullaniciRolID" ColumnName="OlusturanKullaniciRolID" />
+          <ScalarProperty Name="DegistirilmeTarihi" ColumnName="DegistirilmeTarihi" />
+          <ScalarProperty Name="DegistirenKullaniciRolID" ColumnName="DegistirenKullaniciRolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UrunFirma">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.UrunFirma">
+        <MappingFragment StoreEntitySet="UrunFirma">
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+          <ScalarProperty Name="FirmaID" ColumnName="FirmaID" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+          <ScalarProperty Name="OlusturulmaTarihi" ColumnName="OlusturulmaTarihi" />
+          <ScalarProperty Name="OlusturanKullaniciRolID" ColumnName="OlusturanKullaniciRolID" />
+          <ScalarProperty Name="DegistirilmeTarihi" ColumnName="DegistirilmeTarihi" />
+          <ScalarProperty Name="DegistirenKullaniciRolID" ColumnName="DegistirenKullaniciRolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UrunIcerik">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.UrunIcerik">
+        <MappingFragment StoreEntitySet="UrunIcerik">
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+          <ScalarProperty Name="BilesenID" ColumnName="BilesenID" />
+          <ScalarProperty Name="AktifMİ" ColumnName="AktifMİ" />
+          <ScalarProperty Name="OlusturulmaTarihi" ColumnName="OlusturulmaTarihi" />
+          <ScalarProperty Name="OlusturanKullaniciRolID" ColumnName="OlusturanKullaniciRolID" />
+          <ScalarProperty Name="DegistirilmeTarihi" ColumnName="DegistirilmeTarihi" />
+          <ScalarProperty Name="DegistirenKullaniciRolID" ColumnName="DegistirenKullaniciRolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UrunKategori">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.UrunKategori">
+        <MappingFragment StoreEntitySet="UrunKategori">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KategoriAdi" ColumnName="KategoriAdi" />
+          <ScalarProperty Name="UstKategoriID" ColumnName="UstKategoriID" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+          <ScalarProperty Name="OlusturulmaTarihi" ColumnName="OlusturulmaTarihi" />
+          <ScalarProperty Name="OlusturanKullaniciRolID" ColumnName="OlusturanKullaniciRolID" />
+          <ScalarProperty Name="DegistirilmeTarihi" ColumnName="DegistirilmeTarihi" />
+          <ScalarProperty Name="DegistirenKullaniciRolID" ColumnName="DegistirenKullaniciRolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UrunOnay">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.UrunOnay">
+        <MappingFragment StoreEntitySet="UrunOnay">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TakipNumarasi" ColumnName="TakipNumarasi" />
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+          <ScalarProperty Name="KullaniciGozukmeDurumu" ColumnName="KullaniciGozukmeDurumu" />
+          <ScalarProperty Name="EkleyenKullaniciRolID" ColumnName="EkleyenKullaniciRolID" />
+          <ScalarProperty Name="InceleyenKullaniciRolID" ColumnName="InceleyenKullaniciRolID" />
+          <ScalarProperty Name="OnayDurumu" ColumnName="OnayDurumu" />
+          <ScalarProperty Name="IncelemeZamani" ColumnName="IncelemeZamani" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UygulamaAyar">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.UygulamaAyar">
+        <MappingFragment StoreEntitySet="UygulamaAyar">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="LogoResimYolu" ColumnName="LogoResimYolu" />
+          <ScalarProperty Name="KullanimKosullariniGostermeDurumu" ColumnName="KullanimKosullariniGostermeDurumu" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+          <ScalarProperty Name="OlusturulmaTarihi" ColumnName="OlusturulmaTarihi" />
+          <ScalarProperty Name="OlusturanKullaniciRolID" ColumnName="OlusturanKullaniciRolID" />
+          <ScalarProperty Name="DegistirilmeTarihi" ColumnName="DegistirilmeTarihi" />
+          <ScalarProperty Name="DegistirenKullaniciRolID" ColumnName="DegistirenKullaniciRolID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UygulamaIzinTip">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.UygulamaIzinTip">
+        <MappingFragment StoreEntitySet="UygulamaIzinTip">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IzinKategoriAdi" ColumnName="IzinKategoriAdi" />
+          <ScalarProperty Name="UstKategoriIzinID" ColumnName="UstKategoriIzinID" />
+          <ScalarProperty Name="AktifMi" ColumnName="AktifMi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yetki">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.Yetki">
+        <MappingFragment StoreEntitySet="Yetki">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_UygulamaAyarlariKapsulleme">
+      <EntityTypeMapping TypeName="GreenHouseDBModel.VW_UygulamaAyarlariKapsulleme">
+        <MappingFragment StoreEntitySet="VW_UygulamaAyarlariKapsulleme">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="KullanimKosullariniGostermeDurumu" ColumnName="KullanimKosullariniGostermeDurumu" />
+          <ScalarProperty Name="LogoResimYolu" ColumnName="LogoResimYolu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="MenuEleman" TypeName="GreenHouseDBModel.MenuEleman" StoreEntitySet="MenuEleman">
+      <EndProperty Name="Eleman">
+        <ScalarProperty Name="ID" ColumnName="ElemanID" />
+      </EndProperty>
+      <EndProperty Name="Menu">
+        <ScalarProperty Name="ID" ColumnName="MenuID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="SayfaMenu" TypeName="GreenHouseDBModel.SayfaMenu" StoreEntitySet="SayfaMenu">
+      <EndProperty Name="Menu">
+        <ScalarProperty Name="ID" ColumnName="MenuID" />
+      </EndProperty>
+      <EndProperty Name="Sayfa">
+        <ScalarProperty Name="ID" ColumnName="SayfaID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="SP_AramaGecmisi" FunctionName="GreenHouseDBModel.Store.SP_AramaGecmisi">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GreenHouseDBModel.SP_AramaGecmisi_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AramaZamani" ColumnName="AramaZamani" />
+          <ScalarProperty Name="ArayanKullaniciID" ColumnName="ArayanKullaniciID" />
+          <ScalarProperty Name="AramaMetni" ColumnName="AramaMetni" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_FirmaUrunKategoriSayi" FunctionName="GreenHouseDBModel.Store.SP_FirmaUrunKategoriSayi">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GreenHouseDBModel.SP_FirmaUrunKategoriSayi_Result">
+          <ScalarProperty Name="FirmaAdi" ColumnName="FirmaAdi" />
+          <ScalarProperty Name="KategoriAdi" ColumnName="KategoriAdi" />
+          <ScalarProperty Name="Miktar" ColumnName="Miktar" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_HangiUrunKacKezReddedilmistir" FunctionName="GreenHouseDBModel.Store.SP_HangiUrunKacKezReddedilmistir">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GreenHouseDBModel.SP_HangiUrunKacKezReddedilmistir_Result">
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+          <ScalarProperty Name="ReddilmeMiktari" ColumnName="ReddilmeMiktari" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Sp_KullanicilarinUygulamaUzerindekiIzinGruplari" FunctionName="GreenHouseDBModel.Store.Sp_KullanicilarinUygulamaUzerindekiIzinGruplari">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GreenHouseDBModel.Sp_KullanicilarinUygulamaUzerindekiIzinGruplari_Result">
+          <ScalarProperty Name="IzinKategoriAdi" ColumnName="IzinKategoriAdi" />
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Sp_KullaniciRolGruplari" FunctionName="GreenHouseDBModel.Store.Sp_KullaniciRolGruplari">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GreenHouseDBModel.Sp_KullaniciRolGruplari_Result">
+          <ScalarProperty Name="RolAdi" ColumnName="RolAdi" />
+          <ScalarProperty Name="Rol" ColumnName="Rol" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_KullaniciUrunEklemeZamanRol" FunctionName="GreenHouseDBModel.Store.SP_KullaniciUrunEklemeZamanRol">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GreenHouseDBModel.SP_KullaniciUrunEklemeZamanRol_Result">
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="Soyadi" ColumnName="Soyadi" />
+          <ScalarProperty Name="RolAdi" ColumnName="RolAdi" />
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_MailAdresiFiltrele" FunctionName="GreenHouseDBModel.Store.SP_MailAdresiFiltrele">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GreenHouseDBModel.SP_MailAdresiFiltrele_Result">
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="Soyadi" ColumnName="Soyadi" />
+          <ScalarProperty Name="MailID" ColumnName="MailID" />
+          <ScalarProperty Name="AramaMetni" ColumnName="AramaMetni" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_SeciliUrunIcerigiHangiUrunlerdeVar" FunctionName="GreenHouseDBModel.Store.SP_SeciliUrunIcerigiHangiUrunlerdeVar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GreenHouseDBModel.SP_SeciliUrunIcerigiHangiUrunlerdeVar_Result">
+          <ScalarProperty Name="UrunAdi" ColumnName="UrunAdi" />
+          <ScalarProperty Name="BilesenAdi" ColumnName="BilesenAdi" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_UrunIcerikleriniGrupla" FunctionName="GreenHouseDBModel.Store.SP_UrunIcerikleriniGrupla">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GreenHouseDBModel.SP_UrunIcerikleriniGrupla_Result">
+          <ScalarProperty Name="Adi" ColumnName="Adi" />
+          <ScalarProperty Name="IcerikUrundeBulunmasi" ColumnName="IcerikUrundeBulunmasi" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UrunKayitIsleminiTamamla" FunctionName="GreenHouseDBModel.Store.UrunKayitIsleminiTamamla" />
+  </EntityContainerMapping>
+</Mapping>
