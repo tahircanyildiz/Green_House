@@ -1,5 +1,5 @@
 GREEN HOUSE
-Bu proje, kullanıcıların günlük hayatta kullandıkları ürünlerin içeriğini takip edebilmeleri amacıyla geliştirilen bir mobil uygulamadır.
+Bu proje, kullanıcıların günlük hayatta kullandıkları ürünlerin içeriğini takip edebilmeleri amacıyla geliştirilen bir masaüstü uygulamadır..
 
 -Başlangıç-
 Uygulamayı başlatmak için aşağıdaki adımları takip edebilirsiniz:
